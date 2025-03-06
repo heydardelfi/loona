@@ -1,3 +1,4 @@
 #!/bin/bash -eux
 cargo run --release --package httpwg-gen
-git diff --exit-code
+git diff --exit-code 
+/git commit -m "Initial commit"
